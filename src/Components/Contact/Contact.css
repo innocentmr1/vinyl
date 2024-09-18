@@ -1,0 +1,99 @@
+.contact {
+    margin: 80px auto;
+    padding: 40px;
+    /* max-width: 90%; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: ghostwhite;
+    border-radius: 10px;
+
+}
+
+.contact-col {
+    flex-basis: 48%;
+    color: black;
+
+}
+
+.contact-col h3 {
+    color: red;
+    font-weight: 500;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.contact-col h3 img {
+
+    width: 35px;
+    margin-left: 10px;
+}
+
+.contact-col p {
+    max-width: 450px;
+    list-style: 0.3;
+}
+
+.contact-col ul li {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.contact-col ul li i {
+    font-size: 25px;
+    width: 25px;
+    margin-right: 10px;
+    color: red;
+}
+
+.contact form input,
+.contact form textarea {
+    display: block;
+    width: 100%;
+    background: rgb(212, 212, 206);
+    border-radius: 4px;
+    padding: 15px;
+    border: 0;
+    outline: 0;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    resize: none;
+}
+
+span {
+    display: block;
+    margin: 20px 0;
+}
+
+.socials {
+    display: flex;
+    align-items: center;
+
+
+}
+
+
+
+.socials i {
+    width: 60px !important;
+    font-size: 25px;
+}
+
+.socials i:hover {
+    font-size: 30px;
+}
+
+@media (max-width:700px) {
+
+    .contact {
+        display: block;
+
+    }
+
+    .contact-col {
+        padding: 20px;
+    }
+}
